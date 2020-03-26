@@ -1,0 +1,23 @@
+> Run 5: Execution error: Your program exited with exit status `1'. 
+
+------ Data for Run 5 [length=41 bytes] ------
+50 200 10 
+18 
+69 
+195 
+38 
+73 
+28 
+6 
+172 
+53 
+99 
+----------------------------
+
+Your program printed data to stderr.  Here is the data:
+-------------------
+Traceback_(most_recent_call_last):
+__File_"barn1.py",_line_53,_in_<module>
+__File_"barn1.py",_line_35,_in_biggestGaps
+ValueError:_list.remove(x):_x_not_in_list
+-------------------

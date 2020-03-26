@@ -1,0 +1,20 @@
+USER: Alan Tao [alantao2]
+TASK: milk
+LANG: PYTHON3
+
+Compiling...
+Compile: OK
+
+Executing...
+   Test 1: TEST OK [0.029 secs, 8828 KB]
+   Test 2: TEST OK [0.029 secs, 8820 KB]
+   Test 3: TEST OK [0.031 secs, 8824 KB]
+   Test 4: TEST OK [0.029 secs, 8792 KB]
+   Test 5: TEST OK [0.029 secs, 8824 KB]
+   Test 6: TEST OK [0.034 secs, 8792 KB]
+   Test 7: TEST OK [0.028 secs, 8896 KB]
+   Test 8: TEST OK [0.035 secs, 8972 KB]
+
+All tests OK.
+Your program ('milk') produced all correct answers!  This is your
+submission #6 for this problem.  Congratulations!
