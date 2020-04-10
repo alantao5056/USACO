@@ -1,0 +1,20 @@
+comb 1:
+a > b > c
+b > a > c
+    0, c
+
+comb 2:
+a > c > b
+    c - b, c
+
+comb 3:
+b > c > a
+    c, 0, c - a, c - 2a, c - 3a...until b is full
+
+comb 4:
+c > b > a
+    c, c - b, c - a, c - 2a...until b is full, a, 2a, 3a, until b is empty
+
+comb 5:
+c > a > b
+    c, c - b
