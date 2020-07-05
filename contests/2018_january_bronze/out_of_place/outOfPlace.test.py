@@ -1,10 +1,10 @@
 import unittest
-from back_forth import main
+from outOfPlace import main
 
-class backFourthTest(unittest.TestCase):
+class outOfPlaceTest(unittest.TestCase):
   
-  testDataFolder = 'test'
-
+  testDataFolder = 'test_data'  
+    
   def do_test(self, testNumber):
     testFile = self.testDataFolder + "/" + str(testNumber)
     main(testFile + ".in", testFile + "_actual.out")
@@ -26,5 +26,5 @@ if __name__ == '__main__':
   for i in range(1, 11):
     test_name = 'test_%s' % str(i)
     test = generate_test(i)
-    setattr(backFourthTest, test_name, test)
+    setattr(outOfPlaceTest, test_name, test)
   unittest.main()
