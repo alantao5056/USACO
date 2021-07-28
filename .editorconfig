@@ -1,3 +1,3 @@
-[*.{py,json}]
+[*.{py,java,json}]
 indent_style = space
 indent_size = 2

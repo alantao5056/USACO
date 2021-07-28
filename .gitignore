@@ -1,2 +1,5 @@
-**/test_data/*_actual.out
 **/__pycache__
+**/test/*_actual.out
+**/.idea
+**/.vscode
+**/out
